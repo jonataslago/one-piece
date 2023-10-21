@@ -4,4 +4,4 @@ This is a project created using [Angular CLI](https://github.com/angular/angular
 
 ## Objective
 
-The mais objective for developing this aplication was purely to learn and deepen my knowledge of [Angular](https://github.com/angular/angular-cli), [Tailwind CSS](https://tailwindcss.com/) and API manipulation.
+The main objective for developing this aplication was purely to learn and deepen my knowledge of [Angular](https://github.com/angular/angular-cli), [Tailwind CSS](https://tailwindcss.com/) and API manipulation.

@@ -1,0 +1,6 @@
+{
+    "/api": {
+      "target": "https://kitsu.io/api/edge",
+      "secure": true
+    }
+}

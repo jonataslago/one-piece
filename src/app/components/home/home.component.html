@@ -1,0 +1,31 @@
+<div class="w-screen flex justify-center">
+    <div class="grid w-4/5 gap-14">
+        <app-header></app-header>
+
+        <div class="flex w-full flex-wrap pb-5">
+            <div *ngIf="works && works.length > 0" class="flex w-full flex-wrap gap-5 justify-between">
+                <div *ngFor="let work of works" class="flex relative">
+                    
+                    <img [src]="work.attributes.posterImage['large']" alt="" class="rounded-md  w-44 h-60">
+
+
+                    <div class="p-0.5 bg-white text-black font-light flex absolute top-1 left-1 rounded-sm text-xs">
+                        
+                        <label>{{(work.attributes.subtype).toUpperCase()}}</label>
+
+                    </div>
+    
+
+                    <div class="w-40 line-clamp-2 absolute bottom-0.5 left-1 text-white">
+                        
+                        <label class="font-medium drop-shadow-[0_3px_2px_rgba(0,0,0)]">{{work.attributes.titles['en_jp']}}</label>
+
+                    </div>            
+
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+</div>
